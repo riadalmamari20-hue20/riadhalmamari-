@@ -1,0 +1,81 @@
+name: english_pocket_teacher
+description: >
+  English Pocket Teacher - An offline-first English dictionary, translator, and personal 
+  English teacher app with intelligent learning engine, spaced repetition, and comprehensive 
+  grammar, listening, and pronunciation support.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core
+  cupertino_icons: ^1.0.6
+  
+  # State Management & Dependency Injection
+  get_it: ^7.6.0
+  
+  # Database
+  sqflite: ^2.4.0
+  path: ^1.9.0
+  sqflite_common_ffi: ^2.4.0
+  
+  # Audio & Speech
+  audioplayers: ^6.2.0
+  speech_to_text: ^7.0.0
+  flutter_tts: ^8.2.0
+  
+  # Local storage
+  shared_preferences: ^2.3.0
+  
+  # Navigation & Routing
+  go_router: ^14.0.0
+  
+  # Date & Time
+  intl: ^0.19.0
+  
+  # Utilities
+  collection: ^1.18.0
+  uuid: ^4.1.0
+  
+  # Material Design 3
+  flutter_material_3_core: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.0
+  
+  # Testing
+  mocktail: ^1.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/data/
+    - assets/sounds/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/RobotoMono-Regular.ttf
