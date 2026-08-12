@@ -1,0 +1,4 @@
+storeFile=key.jks
+storePassword=android
+keyAlias=android
+keyPassword=android
