@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:english_pocket_teacher/main.dart';
+import 'package:english_pocket_teacher/app/app.dart';
 
 void main() {
   testWidgets('App initializes correctly', (WidgetTester tester) async {

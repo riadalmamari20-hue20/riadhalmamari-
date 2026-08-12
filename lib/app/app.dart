@@ -69,7 +69,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             _buildFeatureCard(
-              icon: Icons.grammar,
+              icon: Icons.grading,
               title: 'Grammar',
               description: 'Complete grammar lessons A1-C2',
             ),
