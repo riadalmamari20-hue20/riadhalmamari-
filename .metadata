@@ -1,9 +1,5 @@
 # This file tracks properties of this Flutter project.
-# Used by Flutter tooling to track this Flutter project's metadata even if the
-# directory is renamed or moved to another location.
-
 version:
   revision: c87f1ba4a4b85c7ec8e84e70e087f9c2a1e94cce
   channel: stable
-
 project_type: app

@@ -15,8 +15,7 @@
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be committed into version control.
+# The .vscode folder contains launch configuration
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -44,6 +43,9 @@
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
 **/android/key.jks
+/android/app/debug
+/android/app/profile
+/android/app/release
 
 # iOS/macOS
 **/ios/**/*.mode1v3
@@ -78,33 +80,6 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# iOS/macOS
-**/Flutter/Flutter.framework
-**/Flutter/Flutter.podspec
-**/Flutter/Flutter.xcframework
-**/Flutter/Flutter.xcframework/*
-**/Flutter/flutter_assets/
-**/ServiceDefinitions.json
-**/flutter_root/
-
-# Coverage
-coverage/
-.coverage/
-
-# build and release folders
-bin/
-generated/
-
-# Local env variables
-.env
-.env.local
-.env.*.local
-
 # Secrets and signing keys
 key.properties
 key.jks
@@ -112,3 +87,16 @@ key.p8
 key.p12
 *.keystore
 *.jks
+
+# Local env variables
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+.coverage/
+
+# Generated files
+generated/
+bin/
